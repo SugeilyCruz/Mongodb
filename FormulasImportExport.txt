@@ -1,0 +1,15 @@
+Importar de csv
+mongoimport --db tebd --collection estudiantes --type csv --headerline --drop --file "filepath"
+
+Importar de json
+mongoimport --db tebd --collection alumnos --type json --drop --file "C:\Users\55gus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\6 semestre\T. Especiales de BD\alumnos.json"
+
+Importar de Json Array
+mongoimport --db tebd --collection inscritos --jsonArray --drop --file "C:\Users\55gus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\6 semestre\T. Especiales de BD\alumnos_jsonArray.json"
+
+Exportar en Json
+mongoexport --db tebd --collection alumnos --type json --fields clave_alu,curp,nombre,ap_paterno,ap_materno,edad.anios,email --out "C:\Users\55gus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\6 semestre\T. Especiales de BD\export\alumnos1.json"
+
+Exportar en Csv
+mongoexport --db tebd --collection alumnos --type csv --fields clave_alu,curp,nombre,ap_paterno,ap_materno,edad.anios,email --out "C:\Users\55gus\OneDrive - UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO\6 semestre\T. Especiales de BD\export\alumnos.csv"
+

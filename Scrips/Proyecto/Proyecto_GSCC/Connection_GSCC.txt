@@ -1,0 +1,11 @@
+GUADALUPE SUGEILY CRUZ CERVANTES
+
+usuario:proy20222  contraseña:Fes22TEBD
+mongodb+srv://tedb2022.mt48a.mongodb.net/       
+
+connectionString
+mongodb+srv://proy20222:Fes22TEBD@tedb2022.mt48a.mongodb.net/?retryWrites=true&w=majority
+
+API
+https://data.mongodb-api.com/app/data-potpn/endpoint/data/beta/  	URL Endpoint
+CEHp6huw43HD8wjfVWxdnQR9kF003fnolbVhcN3NLHqcTEU3dQ30VvHHWBwyKnEc 	API Key
